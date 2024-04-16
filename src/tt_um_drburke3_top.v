@@ -22,7 +22,7 @@ module tt_um_drburke3_top (
   assign uio_out = 0;
   assign uio_oe  = 0;
 
-SAD_diff_v1 sklansky_adder_8bit(
+SAD_diff sklansky_adder_8bit(
 .a      (ui_in[7:0]),   // input a
 .sum    (uo_out[7:0]),  // addition out
 .b      (uio_in[7:0]),  // input b
