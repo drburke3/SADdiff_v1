@@ -118,7 +118,7 @@ begin
         begin
             sum <= 8'b00000000;      
         end 
-	else if(enable == 1'b0)
+	else if(enable == 1'b1)
         begin
            	sum[0] <= g[0][0]^p[1][1];
 		    sum[1] <= g[1][0]^p[2][2];
