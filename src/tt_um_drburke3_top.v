@@ -116,7 +116,7 @@ always @(posedge clock)
 begin
 	if(reset_n == 1'b0)
         begin
-            sum = 8'b00000000;      
+            sum <= 8'b00000000;      
         end 
 	else if(enable == 1'b0)
         begin
