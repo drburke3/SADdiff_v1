@@ -17,4 +17,4 @@ Supply two 8bit numbers and get back sum
 
 ## External hardware
 
-None
+None needed.
