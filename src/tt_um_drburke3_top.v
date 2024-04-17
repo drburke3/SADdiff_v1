@@ -4,7 +4,7 @@
  */
 
 `timescale 1ns / 1ps
-`define default_netname none
+`default_nettype none
 
 module tt_um_drburke3_top (
     input  wire [7:0] ui_in,    // Dedicated inputs
